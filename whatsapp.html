@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            /* Responsive layout - makes the menu and the right column stack on top of each other */
+            @media (max-width: 500px) {
+            .menu, .main, .right, .sosmed-wa, .sosmed-ig, .sosmed-Tik, .card {
+                width: 100%;
+                display: block;
+            }
+            }
+        </style>
+
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="whastsapp.css">
+        <title>https://alyanbessie_.com</title>
+    </head>
+    <body class="body">
+        <header>
+            <div>
+                <div class="prof ">
+                    <img style="box-shadow: 10px 10px 10px #eb0000; border-radius: 50px; width: 105px;" src="file/profil.png" alt="">
+                </div>
+                <div id="card-title">
+                    <div class="underline-title"></div>
+                    <h1 class="nama">Alyan M.Bessie</h1>
+                </div>
+            </div>
+            
+
+            <div class="menu-btn">
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+              </div>
+              
+              <nav class="side-menu">
+                <ul class="menu">
+                  <li><a class="main" href="file/document/portofolio.pdf">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+        </header>
+
+        <script src="script.js"></script>
+    
+        <div class="menu">
+                <div class="sosmed-wa">
+                    <div id="myButton"><img style=" width: 15%; height: auto; border-radius: 50%;" src="file/whatsapp.png" alt="">WhatApp</div>
+
+                    <script>
+                        document.getElementById("myButton").addEventListener("click", function() {
+                        window.open("https://wa.me/+6281236039373", "_blank");
+                        });
+                    </script>
+                </div>
+    
+                <div class="sosmed-ig">
+                    <div id="myButton-ig"><img style=" width: 15%; height: auto; border-radius: 50%;" src="file/instgram.png" alt="">Instagram</div>
+
+                    <script>
+                        document.getElementById("myButton-ig").addEventListener("click", function() {
+                        window.open("https://www.instagram.com/alyanbessie_", "_blank");
+                        });
+                    </script>
+                </div>
+
+                <div class="sosmed-Tik">
+                    <div id="myButton-Tik"><img style=" width: 15%; height: auto; border-radius: 50%;" src="file/tiktok.png" alt="">TikTok.</div>
+
+                    <script>
+                        document.getElementById("myButton-Tik").addEventListener("click", function() {
+                        window.open("https://www.tiktok.com/@allllyan", "_blank");
+                        });
+                    </script>
+                </div>
+
+                <div class="card">
+                    <video class="vidio" width="500" height="300" autoplay>
+                        <source  src="file/vidio.mp4" type="video/mp4">
+                      </video>
+                    <div class="card-body">
+                      <h4 class="card-title">Do everything with love</h4>
+                      <p class="card-text">Wherever you go, do everything with all your heart.</p>
+                      <a href="#" class="btn btn-primary">GO</a>
+                    </div>
+                </div>
+            </div> 
+
+            
+    </body>
+</html>
